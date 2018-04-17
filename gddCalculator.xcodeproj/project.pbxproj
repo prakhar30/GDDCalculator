@@ -7,23 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		956C75A91DAC442D00391497 /* formula.png in Resources */ = {isa = PBXBuildFile; fileRef = 956C75A71DAC442D00391497 /* formula.png */; };
+		956C75AA1DAC442D00391497 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = 956C75A81DAC442D00391497 /* table.png */; };
+		958335331D4CE26600426D12 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958335321D4CE26600426D12 /* MyCollectionViewCell.swift */; };
+		9583D5C71D48E1640028F3F4 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9583D5C61D48E1640028F3F4 /* Info.swift */; };
+		95A411201FA72B4700942AE8 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A4111D1FA72B0A00942AE8 /* Charts.framework */; };
+		95A411211FA72B4700942AE8 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95A4111D1FA72B0A00942AE8 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		95B65C171D46449D00B617B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B65C161D46449D00B617B9 /* AppDelegate.swift */; };
-		95B65C191D46449D00B617B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B65C181D46449D00B617B9 /* ViewController.swift */; };
 		95B65C1C1D46449E00B617B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B65C1A1D46449E00B617B9 /* Main.storyboard */; };
 		95B65C1F1D46449E00B617B9 /* gddCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B65C1D1D46449E00B617B9 /* gddCalculator.xcdatamodeld */; };
 		95B65C211D46449E00B617B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B65C201D46449E00B617B9 /* Assets.xcassets */; };
 		95B65C241D46449E00B617B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B65C221D46449E00B617B9 /* LaunchScreen.storyboard */; };
+		95B65C411D46468500B617B9 /* dummy.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B65C401D46468500B617B9 /* dummy.png */; };
+		95B65C431D464E1600B617B9 /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B65C421D464E1600B617B9 /* tabBar.swift */; };
+		95B65C451D464E7F00B617B9 /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B65C441D464E7F00B617B9 /* first.swift */; };
+		95B65C471D464E9500B617B9 /* second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B65C461D464E9500B617B9 /* second.swift */; };
+		95B79F1C1DAEB3A70095A368 /* Ag logo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B79F1B1DAEB3A70095A368 /* Ag logo1.jpg */; };
+		95B79F211DAEB3AD0095A368 /* NPKGraphic4.12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B79F201DAEB3AD0095A368 /* NPKGraphic4.12.jpg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		95A4111C1FA72B0A00942AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A411171FA72B0A00942AE8 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		95A4111E1FA72B0A00942AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A411171FA72B0A00942AE8 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		95A411221FA72B4700942AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A411171FA72B0A00942AE8 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95B65C3F1D46452B00B617B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				95A411211FA72B4700942AE8 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		956C75A71DAC442D00391497 /* formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formula.png; sourceTree = "<group>"; };
+		956C75A81DAC442D00391497 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		958335321D4CE26600426D12 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		9583D5C61D48E1640028F3F4 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		95A411171FA72B0A00942AE8 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		95B65C131D46449D00B617B9 /* gddCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gddCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B65C161D46449D00B617B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95B65C181D46449D00B617B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95B65C1B1D46449E00B617B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95B65C1E1D46449E00B617B9 /* gddCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gddCalculator.xcdatamodel; sourceTree = "<group>"; };
 		95B65C201D46449E00B617B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B65C231D46449E00B617B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B65C251D46449E00B617B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B65C401D46468500B617B9 /* dummy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dummy.png; sourceTree = "<group>"; };
+		95B65C421D464E1600B617B9 /* tabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
+		95B65C441D464E7F00B617B9 /* first.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
+		95B65C461D464E9500B617B9 /* second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = second.swift; sourceTree = "<group>"; };
+		95B79F1B1DAEB3A70095A368 /* Ag logo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ag logo1.jpg"; sourceTree = "<group>"; };
+		95B79F201DAEB3AD0095A368 /* NPKGraphic4.12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NPKGraphic4.12.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +90,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A411201FA72B4700942AE8 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95A411181FA72B0A00942AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A4111D1FA72B0A00942AE8 /* Charts.framework */,
+				95A4111F1FA72B0A00942AE8 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		95B65C0A1D46449D00B617B9 = {
 			isa = PBXGroup;
 			children = (
 				95B65C151D46449D00B617B9 /* gddCalculator */,
 				95B65C141D46449D00B617B9 /* Products */,
+				95A411171FA72B0A00942AE8 /* Charts.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +127,21 @@
 			isa = PBXGroup;
 			children = (
 				95B65C161D46449D00B617B9 /* AppDelegate.swift */,
-				95B65C181D46449D00B617B9 /* ViewController.swift */,
 				95B65C1A1D46449E00B617B9 /* Main.storyboard */,
+				95B65C421D464E1600B617B9 /* tabBar.swift */,
+				95B65C441D464E7F00B617B9 /* first.swift */,
+				9583D5C61D48E1640028F3F4 /* Info.swift */,
+				95B65C461D464E9500B617B9 /* second.swift */,
+				958335321D4CE26600426D12 /* MyCollectionViewCell.swift */,
 				95B65C201D46449E00B617B9 /* Assets.xcassets */,
 				95B65C221D46449E00B617B9 /* LaunchScreen.storyboard */,
 				95B65C251D46449E00B617B9 /* Info.plist */,
 				95B65C1D1D46449E00B617B9 /* gddCalculator.xcdatamodeld */,
+				956C75A71DAC442D00391497 /* formula.png */,
+				956C75A81DAC442D00391497 /* table.png */,
+				95B79F1B1DAEB3A70095A368 /* Ag logo1.jpg */,
+				95B79F201DAEB3AD0095A368 /* NPKGraphic4.12.jpg */,
+				95B65C401D46468500B617B9 /* dummy.png */,
 			);
 			path = gddCalculator;
 			sourceTree = "<group>";
@@ -77,10 +156,12 @@
 				95B65C0F1D46449D00B617B9 /* Sources */,
 				95B65C101D46449D00B617B9 /* Frameworks */,
 				95B65C111D46449D00B617B9 /* Resources */,
+				95B65C3F1D46452B00B617B9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				95A411231FA72B4700942AE8 /* PBXTargetDependency */,
 			);
 			name = gddCalculator;
 			productName = gddCalculator;
@@ -94,11 +175,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Prakhar Tripathi";
 				TargetAttributes = {
 					95B65C121D46449D00B617B9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -113,6 +195,12 @@
 			mainGroup = 95B65C0A1D46449D00B617B9;
 			productRefGroup = 95B65C141D46449D00B617B9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 95A411181FA72B0A00942AE8 /* Products */;
+					ProjectRef = 95A411171FA72B0A00942AE8 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				95B65C121D46449D00B617B9 /* gddCalculator */,
@@ -120,14 +208,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		95A4111D1FA72B0A00942AE8 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 95A4111C1FA72B0A00942AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		95A4111F1FA72B0A00942AE8 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 95A4111E1FA72B0A00942AE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		95B65C111D46449D00B617B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B65C411D46468500B617B9 /* dummy.png in Resources */,
 				95B65C241D46449E00B617B9 /* LaunchScreen.storyboard in Resources */,
+				956C75AA1DAC442D00391497 /* table.png in Resources */,
+				95B79F1C1DAEB3A70095A368 /* Ag logo1.jpg in Resources */,
 				95B65C211D46449E00B617B9 /* Assets.xcassets in Resources */,
+				95B79F211DAEB3AD0095A368 /* NPKGraphic4.12.jpg in Resources */,
 				95B65C1C1D46449E00B617B9 /* Main.storyboard in Resources */,
+				956C75A91DAC442D00391497 /* formula.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +248,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95B65C191D46449D00B617B9 /* ViewController.swift in Sources */,
+				95B65C431D464E1600B617B9 /* tabBar.swift in Sources */,
+				958335331D4CE26600426D12 /* MyCollectionViewCell.swift in Sources */,
 				95B65C1F1D46449E00B617B9 /* gddCalculator.xcdatamodeld in Sources */,
+				95B65C471D464E9500B617B9 /* second.swift in Sources */,
+				9583D5C71D48E1640028F3F4 /* Info.swift in Sources */,
+				95B65C451D464E7F00B617B9 /* first.swift in Sources */,
 				95B65C171D46449D00B617B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A411231FA72B4700942AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 95A411221FA72B4700942AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		95B65C1A1D46449E00B617B9 /* Main.storyboard */ = {
@@ -180,8 +302,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -225,8 +349,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -245,6 +371,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -252,22 +379,32 @@
 		95B65C291D46449E00B617B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = gddCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.try.gddCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		95B65C2A1D46449E00B617B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = gddCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.try.gddCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -290,6 +427,7 @@
 				95B65C2A1D46449E00B617B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
